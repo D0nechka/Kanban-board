@@ -8,7 +8,7 @@ import { createTasks } from "@/server-actions/tasks"
 interface AddTaskProps {
     children: React.ReactElement
 }
-
+    
 export function AddTask({children}: AddTaskProps) {
    const [isOpened, setIsOpened] = useState(false)
     

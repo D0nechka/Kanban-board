@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='pageWrapper'>
       <header className='headerWrapper'>
-        <div>Kanban Board</div>
+        <div>BAM BAM Board</div>
         <AddTask>
           <button>add task</button>
         </AddTask>
