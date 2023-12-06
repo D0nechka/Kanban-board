@@ -1,5 +1,5 @@
 import {KanbanBoard} from '@/components/KanbanBoard/KanbanBoard'
-import { AddTask } from '@/components/addTask/AddTask'
+import { AddTask } from '@/components/AddTask/AddTask'
 import { getTasks } from '@/server-actions/tasks'
 import '@/styles/globals.scss'
 import { Suspense } from 'react'
