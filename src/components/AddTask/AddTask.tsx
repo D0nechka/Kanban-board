@@ -25,7 +25,7 @@ export function AddTask({children}: AddTaskProps) {
         {isOpened && <AddTaskModal onClose={handleClose}/>}
     </>
     
-    function AddTaskModal({onClose}) {
+    function AddTaskModal({onClose}: {onClose: () => void}) {
         const [title, setTitle] = useState('')
         const [description, setDescription] = useState('')
 
