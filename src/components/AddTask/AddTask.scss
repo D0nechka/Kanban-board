@@ -1,0 +1,32 @@
+.modalWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.498);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    background: rgb(255, 255, 255);
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.form {
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+}
